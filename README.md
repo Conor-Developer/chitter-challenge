@@ -77,7 +77,7 @@ I want to log out of Chitter
 
 1. Connect to `psql` (it's important to run this command from the root directory of 'chitter-challenge')
 2. Create the database using the `psql` command `CREATE DATABASE chitter_manager;`
-3. Connect to the database using the `pqsl` command `\c messages;`
+3. Connect to the database using the `pqsl` command `\c chitter_manager;`
 4. Run the following commands within psql:
    `\i ./db/migrations/01_create_messages_table.sql`
    `\i ./db/migrations/02_add_creation_to_messages.sql`
@@ -87,7 +87,7 @@ I want to log out of Chitter
 
 1. Connect to `psql` (it's important to run this command from the root directory of 'chitter-challenge')
 2. Create the database using the `psql` command `CREATE DATABASE chitter_manager_test;`
-3. Connect to the database using the `pqsl` command `\c messages;`
+3. Connect to the database using the `pqsl` command `\c chitter_manager_test;`
 4. Run the following commands within psql:
    `\i ./db/migrations/01_create_messages_table.sql`
    `\i ./db/migrations/02_add_creation_to_messages.sql`
